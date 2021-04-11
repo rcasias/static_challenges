@@ -2,6 +2,10 @@ body{
   font-family: sans-serif;
 }
 
+.image-size-100{
+  max-width: 100%;
+}
+
 .nav-top{
   display: flex;
   max-width: 1200px;
@@ -37,9 +41,7 @@ body{
   grid-row: span 2;
 }
 
-.centered{
-  text-align: center;
-}
+
 
 
 a{
@@ -47,6 +49,13 @@ a{
   color: white;
   padding: 5px;
 }
+
+.anchor-links-left{
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .informational-paragraphs{
 }
 
