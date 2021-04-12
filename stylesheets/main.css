@@ -6,6 +6,18 @@ body{
   max-width: 100%;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.anchor-links-right{
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .nav-top{
   display: flex;
   max-width: 1200px;
@@ -13,6 +25,16 @@ body{
   background-color: darkred;
   color: white;
   padding: 2%;
+}
+
+.nav-bottom{
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #141414;
+  color: white;
+  padding: 2%;
+  margin-bottom: 2%;
 }
 
 .grid{
@@ -39,39 +61,6 @@ body{
   margin-bottom: auto;
   grid-column: span 1;
   grid-row: span 2;
-}
-
-
-
-
-a{
-  text-decoration: none;
-  color: white;
-  padding: 5px;
-}
-
-.anchor-links-left{
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.informational-paragraphs{
-}
-
-.right-side-links{
-  text-decoration: none;
-  text-align: right;
-}
-
-.nav-bottom{
-  display: flex;
-  max-width: 1200px;
-  margin: auto;
-  background-color: #141414;
-  color: white;
-  padding: 2%;
-  margin-bottom: 2%;
 }
 
 footer {
